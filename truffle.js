@@ -1,3 +1,6 @@
+// Allows us to use ES6 in our migrations and tests.
+require('babel-register')
+
 module.exports = {
   networks: {
     dev: {
@@ -23,7 +26,7 @@ module.exports = {
       host: 'localhost',
       port: 8545,
       network_id: 4,
-      gasPrice: 2e9
+      gasPrice: 10e9
     }
   }
 }
