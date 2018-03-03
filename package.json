@@ -1,0 +1,10 @@
+{
+  "name": "tovarCoin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "bignumber.js": "^6.0.0",
+    "zeppelin-solidity": "^1.7.0"
+  }
+}
