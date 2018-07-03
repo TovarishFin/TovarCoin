@@ -1,7 +1,5 @@
-const Migrations = artifacts.require('../Migrations.sol')
-const TovarCoin = artifacts.require('../TovarCoin.sol')
+var Migrations = artifacts.require("./Migrations.sol");
 
-module.exports = deployer => {
-  deployer.deploy(Migrations)
-  deployer.deploy(TovarCoin('1e28', 'TovarCoin', 'TVR', 18))
+module.exports = function(deployer) {
+  deployer.deploy(Migrations);
 };
